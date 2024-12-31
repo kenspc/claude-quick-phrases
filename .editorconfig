@@ -1,0 +1,22 @@
+﻿# Indicates that this is the top-level EditorConfig file for the project
+root = true
+
+# Common settings, applied to all files
+[*]
+charset = utf-8                # File encoding is UTF-8
+end_of_line = lf               # Use Unix-style line endings
+insert_final_newline = true    # Insert a newline at the end of the file
+trim_trailing_whitespace = true # Remove trailing whitespace
+
+# Settings specific to HTML files
+[*.html]
+indent_style = space           # Use spaces for indentation
+indent_size = 2                # Indentation size is 2 spaces
+max_line_length = 120          # Maximum line length is 120 characters
+
+# Settings specific to JavaScript files
+[*.js]
+indent_style = space           # Use spaces for indentation
+indent_size = 2                # Indentation size is 2 spaces
+max_line_length = 120          # Maximum line length is 120 characters
+quote_type = single            # Use single quotes
